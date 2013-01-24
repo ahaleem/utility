@@ -4,7 +4,7 @@ from AppKit import *
 import os
 
 command = "open"
-program = "'Komodo Edit'"
+program = "'TextEdit'"
 
 pasteb = NSPasteboard.generalPasteboard()
 copiedPath = pasteb.stringForType_(NSStringPboardType)
